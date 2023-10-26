@@ -4,7 +4,7 @@ import CV from "../../assets/ElsonPais_Resume.pdf"
 const Data = () => {
   return (
     <div className="home__data">
-        <h1 className="home__title">Elsonnn Paisss
+        <h1 className="home__title">Elson Pais
         <svg
                   width="36"
                   height="36"
