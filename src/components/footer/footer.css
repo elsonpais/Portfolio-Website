@@ -55,6 +55,13 @@
     font-size: var(--smaller-font-size);
 }
 
+.viewCount__container {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--mb-1);
+    color: var(--title-color);
+}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

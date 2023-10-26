@@ -1,7 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./footer.css"
 
 const Footer = () => {
+
+    const [viewCount, setViewCount] = useState(0);
+
+    useEffect(()=> {
+        async function updateCounter()  {
+            let response = await fetch("https://m6bq7wq3qqmyjujixai6kj5tpm0xdjol.lambda-url.us-east-1.on.aws/");
+            let data = await response.json();
+            setViewCount(data);
+            // console.log("function called")
+        }
+
+        updateCounter();
+        console.log("useeffect called");
+    },[]);
+
   return (
     <footer className="footer">
         <div className="footer__container container">
@@ -38,6 +53,10 @@ const Footer = () => {
             </div>
 
             <span className="footer__copy">&#169; Elson Pais. All rights reserved</span>
+
+            <div className="viewCount__container">
+                <p id="viewCount">View Count - {viewCount}</p>
+            </div>
         </div>
     </footer>
   )
