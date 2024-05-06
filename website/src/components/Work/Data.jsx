@@ -15,7 +15,7 @@ export const projectsData = [
       image: Work2,
       title: "ChitChat - Messaging App",
       category: "app",
-      link: "#",
+      link: "https://sites.google.com/view/chitchat-project",
     },
     {
       id: 3,
