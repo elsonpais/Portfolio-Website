@@ -22,7 +22,7 @@ export const projectsData = [
       image: Work3,
       title: "Flourney - Flight Booking App",
       category: "app",
-      link: "#",
+      link: "https://sites.google.com/view/flourney",
     },
   ];
 
