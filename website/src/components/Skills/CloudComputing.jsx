@@ -11,9 +11,9 @@ const CloudComputing = () => {
                 <div className="skills__data">
                     <div className="skills__logo aws"></div>
 
-                    <div>
+                    <div className="skills__name__div">
                         <h3 className="skills__name">AWS</h3>
-                        <span className="skills__level">Basic</span>
+                        {/* <span className="skills__level">Basic</span> */}
                     </div>
                 </div>
             </div>

@@ -11,17 +11,17 @@ const WebDev = () => {
                 <div className="skills__data">
                     <div className="skills__logo react__logo"></div>
 
-                    <div>
+                    <div className="skills__name__div">
                         <h3 className="skills__name">ReactJS</h3>
-                        <span className="skills__level">Intermediate</span>
+                        {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                 </div>
                 <div className="skills__data">
                     <div className="skills__logo node__logo"></div>
 
-                    <div>
+                    <div className="skills__name__div">
                         <h3 className="skills__name">NodeJS</h3>
-                        <span className="skills__level">Basic</span>
+                        {/* <span className="skills__level">Basic</span> */}
                     </div>
                 </div>
             </div>
@@ -30,17 +30,17 @@ const WebDev = () => {
                 <div className="skills__data">
                     <div className="skills__logo express__logo"></div>
 
-                    <div>
+                    <div className="skills__name__div">
                         <h3 className="skills__name">ExpressJS</h3>
-                        <span className="skills__level">Basic</span>
+                        {/* <span className="skills__level">Basic</span> */}
                     </div>
                 </div>
                 <div className="skills__data">
                     <div className="skills__logo javascript__logo"></div>
 
-                    <div>
+                    <div className="skills__name__div">
                         <h3 className="skills__name">Javascript</h3>
-                        <span className="skills__level">Intermediate</span>
+                        {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                 </div>
             </div>

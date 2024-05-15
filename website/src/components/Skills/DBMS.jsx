@@ -11,17 +11,17 @@ const DBMS = () => {
                 <div className="skills__data">
                     <div className="skills__logo sql"></div>
 
-                    <div>
+                    <div className="skills__name__div">
                         <h3 className="skills__name">SQL</h3>
-                        <span className="skills__level">Intermediate</span>
+                        {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                 </div>
                 <div className="skills__data">
                     <div className="skills__logo mongodb"></div>
 
-                    <div>
+                    <div className="skills__name__div">
                         <h3 className="skills__name">MongoDB</h3>
-                        <span className="skills__level">Intermediate</span>
+                        {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                 </div>
             </div>
@@ -30,9 +30,9 @@ const DBMS = () => {
                 <div className="skills__data">
                     <div className="skills__logo firebase"></div>
 
-                    <div>
+                    <div className="skills__name__div">
                         <h3 className="skills__name">Firebase</h3>
-                        <span className="skills__level">Intermediate</span>
+                        {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                 </div>
             </div>

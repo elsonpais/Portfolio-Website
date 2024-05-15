@@ -11,17 +11,17 @@ const AppDev = () => {
                 <div className="skills__data">
                     <div className="skills__logo flutter"></div>
 
-                    <div>
+                    <div className="skills__name__div">
                         <h3 className="skills__name">Flutter</h3>
-                        <span className="skills__level">Intermediate</span>
+                        {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                 </div>
                 <div className="skills__data">
                     <div className="skills__logo dart"></div>
 
-                    <div>
+                    <div className="skills__name__div">
                         <h3 className="skills__name">Dart</h3>
-                        <span className="skills__level">Basic</span>
+                        {/* <span className="skills__level">Basic</span> */}
                     </div>
                 </div>
             </div>
@@ -30,17 +30,17 @@ const AppDev = () => {
                 <div className="skills__data">
                     <div className="skills__logo androidstudio"></div>
 
-                    <div>
+                    <div className="skills__name__div">
                         <h3 className="skills__name">Android Studio</h3>
-                        <span className="skills__level">Intermediate</span>
+                        {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                 </div>
                 <div className="skills__data">
                     <div className="skills__logo java"></div>
 
-                    <div>
+                    <div className="skills__name__div">
                         <h3 className="skills__name">Java</h3>
-                        <span className="skills__level">Intermediate</span>
+                        {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                 </div>
             </div>

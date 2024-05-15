@@ -11,9 +11,9 @@ const VersionControl = () => {
             <div className="skills__data">
                 <div className="skills__logo git"></div>
 
-                <div>
+                <div className="skills__name__div">
                     <h3 className="skills__name">Git</h3>
-                    <span className="skills__level">Intermediate</span>
+                    {/* <span className="skills__level">Intermediate</span> */}
                 </div>
             </div>
         </div>
@@ -22,9 +22,9 @@ const VersionControl = () => {
             <div className="skills__data">
                 <div className="skills__logo github"></div>
 
-                <div>
+                <div className="skills__name__div">
                     <h3 className="skills__name">Github</h3>
-                    <span className="skills__level">Intermediate</span>
+                    {/* <span className="skills__level">Intermediate</span> */}
                 </div>
             </div>
         </div>

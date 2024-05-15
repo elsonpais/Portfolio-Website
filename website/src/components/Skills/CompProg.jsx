@@ -11,9 +11,9 @@ const CompProg = () => {
                 <div className="skills__data">
                     <div className="skills__logo dsa"></div>
 
-                    <div>
+                    <div className="skills__name__div">
                         <h3 className="skills__name">Data Structures and Algorithms</h3>
-                        <span className="skills__level">Intermediate</span>
+                        {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                 </div>
             </div>
@@ -22,17 +22,17 @@ const CompProg = () => {
             <div className="skills__data">
                     <div className="skills__logo problemsolving"></div>
 
-                    <div>
+                    <div className="skills__name__div">
                         <h3 className="skills__name">Problem Solving</h3>
-                        <span className="skills__level">Intermediate</span>
+                        {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                 </div>
                 <div className="skills__data">
                     <div className="skills__logo cpp"></div>
 
-                    <div>
+                    <div className="skills__name__div">
                         <h3 className="skills__name">C++</h3>
-                        <span className="skills__level">Intermediate</span>
+                        {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                 </div>
             </div>

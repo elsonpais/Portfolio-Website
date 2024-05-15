@@ -27,7 +27,7 @@
 .skills__group {
     display: grid;
     align-items: flex-start;
-    row-gap: 1rem;
+    row-gap: 2rem;
 }
 
 .skills__data {
@@ -38,6 +38,11 @@
 .skills .bx-badge-check {
     font-size: 1rem;
     color: var(--title-color);
+}
+
+.skills__name__div {
+    display: flex;
+    align-items: center;
 }
 
 .skills__name {
